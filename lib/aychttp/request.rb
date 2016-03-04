@@ -12,7 +12,7 @@ module AychTTP
         Response.new response
       end
 
-      def post(url, addition_params = {})
+      def post(url, additional_params = {})
         host_with_scheme, path, params = host_path_params(url)
         conn = connection(host_with_scheme)
         response = conn.post(path, params.merge(additional_params))

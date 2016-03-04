@@ -17,7 +17,7 @@ module AychTTP
       def host_path_params(url)
         uri = URI.parse(url)
         [
-          "#{uri.scheme}://#{uri.host}",
+          ["#{uri.scheme}://#{uri.host}", uri.port].join(':'),
           uri.path,
           URI.decode_www_form(uri.query || '').to_h
         ]

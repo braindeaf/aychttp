@@ -1,5 +1,7 @@
-require "aychttp/version"
+require 'aychttp/request'
+require 'aychttp/response'
+require 'aychttp/version'
 
-module Aychttp
-  # Your code goes here...
+module AychTTP
+  extend Request::Methods
 end

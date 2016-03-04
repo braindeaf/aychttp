@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class AychttpTest < Minitest::Test
+class AychTTPTest < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::Aychttp::VERSION
+    refute_nil ::AychTTP::VERSION
   end
 
   def test_it_does_something_useful

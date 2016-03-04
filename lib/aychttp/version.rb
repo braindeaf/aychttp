@@ -1,3 +1,3 @@
-module Aychttp
+module AychTTP
   VERSION = "0.1.0"
 end
